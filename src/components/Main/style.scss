@@ -1,12 +1,7 @@
- .main-wrapper {
-  width: 100%;
-  height: 100vh;
-  overflow-y: hidden; // hide vertical
-  overflow-x: hidden; // hide horizontal
-}
-
 .background-img {
   position: fixed;
   width: 100%;
-  top: -20px;
+  height: 100vh;
+  background: url("/images/valorant-bg.jpg") no-repeat center center;
+  background-size: cover;
 }

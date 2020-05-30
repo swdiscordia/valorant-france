@@ -9,11 +9,12 @@ $transition: 0.3s ease-out all;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: row;
+  flex-wrap: nowrap;
+  word-wrap: break-word;
+  width: 100%;
   & a {
     width: 100%;
     max-width: 240px;
-    height: 74px;
     padding: 8px;
     font-size: 0.8rem;
     font-weight: 900;
@@ -23,7 +24,7 @@ $transition: 0.3s ease-out all;
     text-decoration: none;
     box-shadow: 0 0 0 1px inset rgba($white, 0.3);
     position: relative;
-    margin: 2rem 1.5rem;
+    margin: 1rem 0.5rem;
     &.white:hover > p {
       color: $white;
     }
@@ -79,16 +80,6 @@ $transition: 0.3s ease-out all;
         height: 100%;
         left: 0;
         border: 1px solid $pink;
-        &:before {
-          content: "";
-          width: 2px;
-          height: 2px;
-          left: -1px;
-          top: -1px;
-          background: $base;
-          position: absolute;
-          transition: $transition;
-        }
       }
       & span.bg {
         left: -5%;
@@ -118,5 +109,13 @@ $transition: 0.3s ease-out all;
         background: $white;
       }
     }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .valorant-button a {
+    padding: 0;
+    margin: 0;
+    font-size: 0.6rem;
   }
 }

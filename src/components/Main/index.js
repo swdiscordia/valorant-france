@@ -5,7 +5,7 @@ import './style.scss';
 
 const Main = () => (
   <div className="main-wrapper">
-    <img className="background-img" src="/images/valorant-bg.jpg" alt="valorant background" />
+    <div className="background-img" />
     <Button />
   </div>
 );
