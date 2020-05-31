@@ -54,5 +54,8 @@ module.exports = merge(common, {
     compress: true,
     hot: true,
     port,
+    watchOptions: {
+      ignored: /node_modules/
+    }
   },
 });

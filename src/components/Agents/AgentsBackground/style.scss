@@ -1,0 +1,15 @@
+.background-image {
+  width: 100%;
+  height: 100vh;
+  background: url("/images/background.png") no-repeat center center;
+  opacity: 0.08;
+  background-size: cover;
+}
+
+.background-color {
+  width: 100%;
+  height: 100vh;
+  background-color: #F74756;
+  opacity: 1;
+  position: absolute;
+}

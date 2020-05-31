@@ -11,11 +11,13 @@
   font-weight: bold;
   &-list {
     display: flex;
-    width: 50%;
     justify-content: space-evenly;
     height: 5rem;
     align-items: center;
     font-size: 0.8em;
+    &-item {
+      margin: 0 1rem;
+    }
   }
   &-title {
     font-size: 1.2em;
@@ -35,10 +37,17 @@
 }
 
 .connexion {
-  width: 10%;
   font-size: 0.8em;
+  margin-right: 2rem;
 }
 
+.navbar-list-item-links {
+  display: inline-block;
+  transition: all .2s ease-in-out;
+}
+.navbar-list-item-links:hover {
+  transform: scale(1.1);
+}
 
 
 /* Effect 1: Brackets */
@@ -56,7 +65,8 @@
 	content: '[';
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
-	transform: translateX(20px);
+  transform: translateX(20px);
+  color: #F74756;
 }
 
 .navbar-list-item-links::after {
@@ -64,7 +74,8 @@
 	content: ']';
 	-webkit-transform: translateX(-20px);
 	-moz-transform: translateX(-20px);
-	transform: translateX(-20px);
+  transform: translateX(-20px);
+  color: #F74756;
 }
 
 .navbar-list-item-links:hover::before,
@@ -76,3 +87,4 @@
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+
