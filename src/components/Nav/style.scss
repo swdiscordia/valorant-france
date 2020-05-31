@@ -11,7 +11,7 @@
   font-weight: bold;
   &-list {
     display: flex;
-    width: 45%;
+    width: 50%;
     justify-content: space-evenly;
     height: 5rem;
     align-items: center;
@@ -41,4 +41,38 @@
 
 
 
+/* Effect 1: Brackets */
+.navbar-list-item-links::before,
+.navbar-list-item-links::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
 
+.navbar-list-item-links::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.navbar-list-item-links::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.navbar-list-item-links:hover::before,
+.navbar-list-item-links:hover::after,
+.navbar-list-item-links:focus::before,
+.navbar-list-item-links:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
