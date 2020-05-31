@@ -1,0 +1,44 @@
+.nav-container {
+  background-color: #2C2C2C;
+  color: #FFF;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  &-list {
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+    height: 5rem;
+    align-items: center;
+    font-size: 0.8em;
+  }
+  &-title {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    &::after {
+      display: block;
+      content: "";
+      width: 2px;
+      height: 30px;
+      background-color: #FFF;
+      color: #FFF;
+      margin-left: 2rem;
+      
+    }
+  }
+}
+
+.connexion {
+  width: 10%;
+  font-size: 0.8em;
+}
+
+
+
+

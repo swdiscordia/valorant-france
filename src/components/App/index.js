@@ -4,12 +4,16 @@ import { Route } from 'react-router-dom';
 
 // == Import
 import Main from 'src/components/Main';
+import Agents from 'src/components/Agents';
 
 // == Composant
 const App = () => (
   <div className="app">
     <Route path="/" exact>
       <Main />
+    </Route>
+    <Route path="/agents" exact>
+      <Agents />
     </Route>
   </div>
 );
