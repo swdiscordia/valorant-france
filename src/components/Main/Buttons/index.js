@@ -1,13 +1,23 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Button from './Button';
 
 import './style.scss';
 
 const Buttons = () => (
   <div className="valorant-button">
-    <Button buttonText="Agents" />
-    <Button buttonText="Tips & Tricks" classModifier="white" />
-    <Button buttonText="News" classModifier="transparent" />
+    <NavLink to="/" exact className="transparent">
+      <Button buttonText="Accueil" />
+    </NavLink>
+    <NavLink to="/agents" exact>
+      <Button buttonText="Agents" />
+    </NavLink>
+    <NavLink to="/tips&tricks" exact className="white">
+      <Button buttonText="Tips & Tricks" />
+    </NavLink>
+    <NavLink to="/news" exact className="grey">
+      <Button buttonText="News" />
+    </NavLink>
   </div>
 );
 

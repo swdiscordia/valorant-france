@@ -1,6 +1,7 @@
 $base: #0f1923;
 $white: #ece8e1;
 $pink: #ff4655;
+$grey: grey;
 $height: 59px;
 $transition: 0.3s ease-out all;
 
@@ -25,6 +26,16 @@ $transition: 0.3s ease-out all;
     box-shadow: 0 0 0 1px inset rgba($white, 0.3);
     position: relative;
     margin: 1rem 0.5rem;
+    &.grey:hover > p {
+      color: $white;
+    }
+    &.grey > p {
+      background: $grey;
+      color: $base;
+      & span.base {
+        border: 1px solid transparent;
+      }
+    }
     &.white:hover > p {
       color: $white;
     }
