@@ -1,6 +1,18 @@
 .cards-wrapper {
-  width: 100%;
-  height: 600px;
-  align-self: center;
-  background-color: blue;
+  width: 80%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
 }
+
+.agent-wrapper {
+  height: 90%;
+  width: 300px;
+  background: url('/images/valorant-ressources/agents/Phoenix/phoenix.png'), no-repeat linear-gradient(#1F2326);
+  background-size: cover;
+  background-position: 40% 50%;
+  background-color: #1F2326;
+  margin-left: 3rem;
+}
+

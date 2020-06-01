@@ -1,0 +1,27 @@
+.agent-info {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.agent-name {
+  display: inline-block;
+  position: relative;
+  left: -16px;
+}
+
+.agent-country {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: #FF4656;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 30%;
+  left: -20%;
+}
+/* South Korea */
+
+/* South Korea */

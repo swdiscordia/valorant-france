@@ -8,7 +8,12 @@ import './style.scss';
 const AgentsContainer = () => (
   <div className="agent-container">
     <AgentsTitle />
-    <AgentsCards />
+    <div className="cards-wrapper">
+      <AgentsCards />
+      <AgentsCards />
+      <AgentsCards />
+      <AgentsCards />
+    </div>
   </div>
 );
 
