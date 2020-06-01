@@ -4,5 +4,7 @@ dist/
 .DS_Store
 Thumbs.db
 *.swp
+*.swo
+*.swn
 
 yarn-error.log
