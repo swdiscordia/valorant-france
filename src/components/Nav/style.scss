@@ -9,30 +9,46 @@
   align-items: center;
   text-transform: uppercase;
   font-weight: bold;
+
   &-list {
     display: flex;
     justify-content: space-evenly;
     height: 6rem;
     align-items: center;
     font-size: 0.9em;
+
     &-item {
       margin: 0 1rem;
+
+      &-title {
+        display: flex;
+        align-items: center;
+
+        &::after {
+          display: block;
+          content: "";
+          width: 2px;
+          height: 30px;
+          background-color: #FFF;
+          color: #FFF;
+          margin-left: 2rem;
+        }
+      }
+
+      &-links {
+        transition: all .2s ease-in-out;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
     }
   }
+
   &-title {
     font-size: 1.4em;
-    display: flex;
-    align-items: center;
-    &::after {
-      display: block;
-      content: "";
-      width: 2px;
-      height: 30px;
-      background-color: #FFF;
-      color: #FFF;
-      margin-left: 2rem;
-      
-    }
   }
 }
 
@@ -40,15 +56,6 @@
   font-size: 1em;
   margin-right: 2rem;
 }
-
-.navbar-list-item-links {
-  display: inline-block;
-  transition: all .2s ease-in-out;
-}
-.navbar-list-item-links:hover {
-  transform: scale(1.1);
-}
-
 
 /* Effect 1: Brackets */
 .navbar-list-item-links::before,

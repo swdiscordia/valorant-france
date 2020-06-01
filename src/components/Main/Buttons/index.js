@@ -12,7 +12,7 @@ const Buttons = () => (
     <NavLink to="/agents" exact>
       <Button buttonText="Agents" />
     </NavLink>
-    <NavLink to="/tips&tricks" exact className="white">
+    <NavLink to="/tips-and-tricks" exact className="white">
       <Button buttonText="Tips & Tricks" />
     </NavLink>
     <NavLink to="/news" exact className="grey">

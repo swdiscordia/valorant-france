@@ -1,16 +1,16 @@
 import React from 'react';
 import NavItemsLogo from './NavItemsLogo';
 import NavItemsTitle from './NavItemsTitle';
-import NavItemsText from './NavItemsText';
+import NavItemLink from './NavItemLink';
 import './style.scss';
 
 const NavItemsLinks = () => (
   <>
-    <NavItemsTitle title="Valorant France" />
+    <NavItemsTitle title="Valorant France" route="/" />
     <NavItemsLogo />
-    <NavItemsText text="Agents" />
-    <NavItemsText text="Tips & Tricks" />
-    <NavItemsText text="News" />
+    <NavItemLink text="Agents" route="/agents" />
+    <NavItemLink text="Tips & Tricks" route="/tips-and-tricks" />
+    <NavItemLink text="News" route="/news" />
   </>
 );
 
