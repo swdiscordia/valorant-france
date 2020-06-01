@@ -12,15 +12,15 @@
   &-list {
     display: flex;
     justify-content: space-evenly;
-    height: 5rem;
+    height: 6rem;
     align-items: center;
-    font-size: 0.8em;
+    font-size: 1.1em;
     &-item {
       margin: 0 1rem;
     }
   }
   &-title {
-    font-size: 1.2em;
+    font-size: 1.4em;
     display: flex;
     align-items: center;
     &::after {
@@ -37,7 +37,7 @@
 }
 
 .connexion {
-  font-size: 0.8em;
+  font-size: 1.2em;
   margin-right: 2rem;
 }
 
