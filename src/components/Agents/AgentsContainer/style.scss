@@ -14,3 +14,66 @@
     left: 22px!important; 
   }
 }
+
+.cards-wrapper {
+  width: 80%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.cards-wrapper > div {
+  width: 100%;
+}
+
+.cards-wrapper figure {
+  opacity: 1 !important;
+}
+
+.coverflow__container__1P-xE {
+  background: rgba(0, 0, 0, 0);
+}
+
+.coverflow__stage__14oqC {
+  perspective: 1000px;
+}
+
+.coverflow__figure__3bk_C {
+  box-shadow: none;
+  -webkit-box-reflect: unset;
+  height: 100%;
+  margin: 0 0rem;
+}
+
+
+.coverflow__text__39hqd {
+  position: unset;
+  bottom: unset;
+  left: unset;
+  right: unset;
+  text-align: unset;
+  font-size: unset;
+  color:unset;
+  padding: unset;
+  overflow: unset;
+  background: unset;
+}
+
+#coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v {
+  position: absolute;
+}
+
+#coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__right__1tzAF {
+  right: 21px;
+  width: 90px;
+}
+
+
+#coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__left__PhMc6 {
+  width: 90px;
+}
+.coverflow__arrow__IDi7v {
+  bottom: 0px;
+}
+
