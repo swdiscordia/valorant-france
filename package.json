@@ -55,9 +55,12 @@
   },
   "dependencies": {
     "prop-types": "*",
+    "radium": "^0.26.0",
     "react": "*",
+    "react-coverflow": "^0.2.20",
     "react-dom": "*",
     "react-redux": "*",
+    "react-responsive-carousel": "^3.2.7",
     "react-router-dom": "^5.2.0",
     "redux": "*",
     "styled-components": "*"

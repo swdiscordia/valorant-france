@@ -1,3 +1,6 @@
 .spell {
   width: 14%;
 }
+.spell:hover {
+  filter: invert(.5) sepia(2) saturate(900) hue-rotate(350deg);
+}

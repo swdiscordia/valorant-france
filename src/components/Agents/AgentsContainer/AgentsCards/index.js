@@ -5,7 +5,7 @@ import AgentSpell from './AgentSpell';
 import './style.scss';
 
 const AgentsCards = () => (
-  <article className="agent-wrapper">
+  <article className="agent-wrapper ">
     <AgentInfos />
     <AgentSpell />
   </article>
