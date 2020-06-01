@@ -36,6 +36,7 @@
   box-shadow: none;
   -webkit-box-reflect: unset;
   height: 100%;
+  margin: 0 0rem;
 }
 
 
@@ -54,4 +55,12 @@
 
 #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v {
   position: absolute;
+}
+
+#coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__right__1tzAF {
+  right: 21px;
+}
+
+.coverflow__arrow__IDi7v {
+  bottom: 0px;
 }
