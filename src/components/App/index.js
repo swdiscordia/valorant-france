@@ -6,6 +6,8 @@ import { Route } from 'react-router-dom';
 import Main from 'src/components/Main';
 import Agents from 'src/components/Agents';
 
+import './style.scss';
+
 // == Composant
 const App = () => (
   <div className="app">

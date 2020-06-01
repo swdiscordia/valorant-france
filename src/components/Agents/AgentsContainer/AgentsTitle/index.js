@@ -1,11 +1,8 @@
 import React from 'react';
-
 import './style.scss';
 
 const AgentsTitle = () => (
-  <div className="title">
-    <h1>AGENTS</h1>
-  </div>
+  <img src="/images/agent.svg" alt="Svg agent" />
 );
 
 export default AgentsTitle;
