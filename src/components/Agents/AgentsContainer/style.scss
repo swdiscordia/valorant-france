@@ -4,4 +4,13 @@
   align-items: center;
   margin-top: 6rem;
   justify-content: space-evenly;
+
+  // Forced to use that tricks in order to select arrows because the lib doesn't provide a way to customize it
+  div[class*="coverflow__right"] {
+    right: 22px!important; 
+  }
+
+  div[class*="coverflow__left"] {
+    left: 22px!important; 
+  }
 }
